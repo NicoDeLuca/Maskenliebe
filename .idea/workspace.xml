@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88eb5759-1dae-4a6d-978f-541aa1d103aa" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stye.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="88eb5759-1dae-4a6d-978f-541aa1d103aa" name="Default Changelist" comment="Full Project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +31,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605780589640</updated>
       <workItem from="1605780590736" duration="6000" />
-      <workItem from="1605780716702" duration="1897000" />
+      <workItem from="1605780716702" duration="3457000" />
+      <workItem from="1605964171806" duration="4310000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1605781189853</created>
@@ -64,44 +71,61 @@
       <option name="project" value="LOCAL" />
       <updated>1605781669634</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Full Project">
+      <created>1605868416012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605868416012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Full Project">
+      <created>1605869023350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605869023350</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Full Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full Project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1383" y="115" key="CommitChangelistDialog2" timestamp="1605867880606">
+    <state x="-1383" y="115" key="CommitChangelistDialog2" timestamp="1605869022995">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1383" y="115" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605867880606" />
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1605867535645">
+    <state x="-1383" y="115" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605869022995" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1605871999371">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605867535645" />
-    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1605867535643">
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605871999371" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1605871999370">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605867535643" />
-    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1605867535642">
+    <state width="1899" height="305" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605871999370" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1605871999368">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605867535642" />
-    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1605867535644">
+    <state width="1899" height="305" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605871999368" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1605871999370">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605867535644" />
-    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605867830680">
+    <state width="1899" height="305" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605871999370" />
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605972790439">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605867830680" />
-    <state x="-1162" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605867855605">
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605972768414" />
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.23.1680.1027@-1920.0.1920.1080" timestamp="1605972790439" />
+    <state x="-1162" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605868819971">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1162" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605867855605" />
+    <state x="-1162" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605868819971" />
   </component>
 </project>
