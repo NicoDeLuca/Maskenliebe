@@ -9,15 +9,19 @@ ul li {
     font-size: 30px;
     margin-right: 100px;
     padding-left: 10px;
-    color: antiquewhite;
+
 
 }
 
 
 div a{
+
     color: darksalmon;
 
+}
 
+#img{
+    margin-left: 40px;
 
 }
 
