@@ -2,13 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 
-ul li{
+ul li {
 
 
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     margin-right: 100px;
     padding-left: 10px;
+    color: antiquewhite;
+
+}
+
+
+div a{
+    color: darksalmon;
 
 
 
