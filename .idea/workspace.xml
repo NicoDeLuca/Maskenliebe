@@ -56,7 +56,7 @@
       <updated>1605780589640</updated>
       <workItem from="1605780590736" duration="6000" />
       <workItem from="1605780716702" duration="3457000" />
-      <workItem from="1605964171806" duration="7255000" />
+      <workItem from="1605964171806" duration="8713000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1605781189853</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605978453447</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Full Project">
+      <created>1605993554846</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605993554846</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,11 +124,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605993069288" />
-    <state x="470" y="112" key="CommitChangelistDialog2" timestamp="1605978453258">
+    <state x="470" y="112" key="CommitChangelistDialog2" timestamp="1605993554697">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="-1383" y="115" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605975808303" />
-    <state x="470" y="112" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1605978453258" />
+    <state x="470" y="112" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1605993554697" />
     <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1605871999371">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
