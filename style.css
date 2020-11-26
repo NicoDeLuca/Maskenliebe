@@ -12,11 +12,14 @@ ul li {
 
 
 }
+#rdm{
+    background: #f5f4f3;
+}
 
+div{
 
-div a{
+    color: #988a7e;
 
-    color: darksalmon;
 
 }
 
@@ -31,3 +34,17 @@ div.card{
     background: none;
 }
 
+div{
+    margin: auto;
+}
+
+img[src="Images/pfeil.png"]{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h5{
+
+    margin-left: auto;
+}
