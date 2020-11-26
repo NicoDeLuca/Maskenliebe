@@ -16,10 +16,9 @@ ul li {
     background: #f5f4f3;
 }
 
-div{
+div a{
 
     color: #988a7e;
-
 
 }
 
@@ -47,4 +46,16 @@ img[src="Images/pfeil.png"]{
 h5{
 
     margin-left: auto;
+}
+div{
+
+    color: #988a7e;
+
+}
+
+a[style="text-decoration : underline"]{
+    margin-right: 50px;
+    margin-left: 600px;
+    margin-top: 200px;
+    padding: 40px;
 }

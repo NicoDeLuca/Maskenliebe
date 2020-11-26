@@ -56,7 +56,7 @@
       <updated>1605780589640</updated>
       <workItem from="1605780590736" duration="6000" />
       <workItem from="1605780716702" duration="3457000" />
-      <workItem from="1605964171806" duration="17875000" />
+      <workItem from="1605964171806" duration="21244000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1605781189853</created>
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606390868920</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Full Project">
+      <created>1606397018847</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606397018847</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,12 +166,12 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605993069288" />
-    <state x="-1383" y="115" key="CommitChangelistDialog2" timestamp="1606390868758">
+    <state x="-1383" y="115" key="CommitChangelistDialog2" timestamp="1606397018705">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1383" y="115" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605975808303" />
     <state x="470" y="112" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606066897993" />
-    <state x="-1383" y="115" key="CommitChangelistDialog2/-3840.0.1920.1080/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1606390868758" />
+    <state x="-1383" y="115" key="CommitChangelistDialog2/-3840.0.1920.1080/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1606397018705" />
     <state x="470" y="112" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606035539276" />
     <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1605871999371">
       <screen x="-1920" y="0" width="1920" height="1080" />
