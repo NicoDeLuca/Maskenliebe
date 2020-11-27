@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88eb5759-1dae-4a6d-978f-541aa1d103aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <updated>1605780589640</updated>
       <workItem from="1605780590736" duration="6000" />
       <workItem from="1605780716702" duration="3457000" />
-      <workItem from="1605964171806" duration="21244000" />
+      <workItem from="1605964171806" duration="22694000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1605781189853</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606397018847</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Full Project">
+      <created>1606405363890</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606405363890</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,10 +171,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605993069288" />
-    <state x="-1383" y="115" key="CommitChangelistDialog2" timestamp="1606397018705">
+    <state x="-1383" y="115" key="CommitChangelistDialog2" timestamp="1606405363755">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1383" y="115" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1605975808303" />
+    <state x="-1383" y="115" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1606405363755" />
     <state x="470" y="112" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606066897993" />
     <state x="-1383" y="115" key="CommitChangelistDialog2/-3840.0.1920.1080/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1606397018705" />
     <state x="470" y="112" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606035539276" />
