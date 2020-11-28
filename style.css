@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
-/* index.html anfang */
 html, body{
     height: 100%;
 }
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-}
 
 main{
     font-family: 'EB Garamond', serif;
@@ -90,40 +86,26 @@ a[style="text-decoration : underline"]{
     margin-top: 200px;
     padding: 40px;
 }
-/* footer */
 
 .footer{
-    background: rgba(246, 244, 242,0.25);
+    background: #f6f4f2;
+    color: white;
     height: 400px;
-
 }
 
 .footer .footer-content {
-
+    border: 1px solid red;
     height: 400px;
     display: flex;
 }
 
 .footer .footer-content .footer-section{
     flex: 1;
-    padding: 50px;
-    height: 350px;
-    font-family: 'EB Garamond', serif;
-    font-size: 25px;
+    border: 1px solid black;
+    padding: 25px;
+    height: 400px;
 }
 
-#social-icons {
-    margin-top: 50px;
+img{
+    width: auto;
 }
-
-/* index.html ende */
-
-
-/* anleitung.html anfang */
-
-.main.content{
-
-}
-
-
-/* anleitung.html ende */
