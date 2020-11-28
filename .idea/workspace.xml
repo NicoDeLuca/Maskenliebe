@@ -54,7 +54,7 @@
       <updated>1605780589640</updated>
       <workItem from="1605780590736" duration="6000" />
       <workItem from="1605780716702" duration="3457000" />
-      <workItem from="1605964171806" duration="22694000" />
+      <workItem from="1605964171806" duration="23296000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1605781189853</created>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606405363890</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Full Project">
+      <created>1606482489047</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606482489047</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,10 +178,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605993069288" />
-    <state x="-1383" y="115" key="CommitChangelistDialog2" timestamp="1606405363755">
+    <state x="-1383" y="115" key="CommitChangelistDialog2" timestamp="1606482488795">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1383" y="115" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1606405363755" />
+    <state x="-1383" y="115" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1606482488795" />
     <state x="470" y="112" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1606066897993" />
     <state x="-1383" y="115" key="CommitChangelistDialog2/-3840.0.1920.1080/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1606397018705" />
     <state x="470" y="112" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606035539276" />

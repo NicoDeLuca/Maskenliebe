@@ -1,30 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
+html, body{
+    height: 100%;
+}
+
+
+main{
+    font-family: 'EB Garamond', serif;
+    min-height: 100%;
+}
+
+.icons{
+    margin: 15px;
+}
+
+.card-title{
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.card-group{
+    margin:100px;
+}
+
+.card-text{
+    font-size: 40px;
+    text-align: center;
+}
+
+.title-pic{
+    position: center;
+    margin: 50px;
+}
+
+.card-head {
+    color: white;
+    position: absolute;
+    z-index: 10;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 1000;
+}
 
 ul li {
-
-
-    font-family: 'EB Garamond', serif;
-    font-size: 30px;
     margin-right: 100px;
     padding-left: 10px;
-
-
 }
+
 #rdm{
-    background: #f5f4f3;
+    font-size: 40px;
+    background-position: center;
+    margin: 100px;
 }
 
 div a{
-
-    color: #988a7e;
-
-}
-
-#img{
-    margin-left: 40px;
-
+    color: #A39183;
 }
 
 div.card{
@@ -38,24 +73,35 @@ div{
 }
 
 img[src="Images/pfeil.png"]{
-    margin-top: 70px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin:auto;
 }
 
-h5{
-
-    margin-left: auto;
-}
 div{
-
     color: #988a7e;
-
 }
 
 a[style="text-decoration : underline"]{
-    margin-right: 50px;
+    margin-right: 60px;
     margin-left: 600px;
     margin-top: 200px;
     padding: 40px;
+}
+
+.footer{
+    background: #f6f4f2;
+    color: white;
+    height: 400px;
+}
+
+.footer .footer-content {
+    border: 1px solid red;
+    height: 400px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+    border: 1px solid black;
+    padding: 25px;
+    height: 400px;
 }
