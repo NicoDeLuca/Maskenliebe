@@ -105,7 +105,29 @@ a[style="text-decoration : underline"]{
     padding: 25px;
     height: 400px;
 }
+/*Damen.html anfang*/
 
-img{
-    width: auto;
+.container-md{
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
 }
+
+.container-md .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(121, 164, 171, 0.5);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    width: 350px;
+
+}
+
+
+/*Damen.html ende*/
+
