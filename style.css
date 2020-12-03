@@ -1,129 +1,604 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
+/* Generell */
+
+.links{
+    color: #A39183;
+}
+
 html, body{
     height: 100%;
 }
 
+.überschrift{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+/* Brand bereich */
+
+.brand-bereich #logo{
+    padding-top: 2%;
+}
+#icons {
+    margin-left: 5%;
+    padding-top: 40%;
+}
+.brand-bereich #anmeldung{
+    margin-left: 50%;
+    margin-top: 45%;
+    font-size: 1.17vw;
+    font-family: 'EB Garamond', serif;
+}
+
+/* Navigation */
+
+.topnav a {
+    border-bottom: 3px solid transparent;
+}
+.topnav a:hover{
+    border-bottom: 3px solid rgb(230, 171, 122);
+}
+
+nav{
+    position: relative;
+    box-shadow: 1px 40px 55px -20px lightgray;
+    background: white;
+}
+
+.nav-link{
+    color: #A39183;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 100px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+/* Titelbild */
+
+.titelbild{
+    background: #f6f4f2;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.titelbild .container-fluid {
+    position: relative;
+    max-width: 1719px;
+    max-height: 598px;
+    border: solid black 1px;
+    padding: 0;
+    margin-left: auto;
+    box-shadow: 0 4px 4px 0 gray;
+}
+
+.titelbild .container-fluid .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(121, 164, 171, 0.5);
+    color: white;
+    height: 100%;
+    width: 15%;
+    padding: 7% 20px 20px;
+    text-align: center;
+    font-size: 2vw;
+}
+
+/* main */
 
 main{
     font-family: 'EB Garamond', serif;
     min-height: 100%;
-}
-
-.icons{
-    margin: 15px;
-}
-
-.card-title{
-    font-size: 40px;
-    text-align: center;
-    margin: auto;
-}
-
-.card-group{
-    margin:100px;
-}
-
-.card-text{
-    font-size: 40px;
-    text-align: center;
-}
-
-.title-pic{
-    position: center;
-    margin: 50px;
-}
-
-.card-head {
-    color: white;
-    position: absolute;
-    z-index: 10;
-}
-
-nav{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    font-weight: 1000;
-}
-
-ul li {
-    margin-right: 100px;
-    padding-left: 10px;
-}
-
-#rdm{
-    font-size: 40px;
-    background-position: center;
-    margin: 100px;
-}
-
-div a{
-    color: #A39183;
-}
-
-div.card{
-    padding: 0;
-    border: none;
-    background: none;
-}
-
-div{
-    margin: auto;
-}
-
-img[src="Images/pfeil.png"]{
-    margin:auto;
-}
-
-div{
     color: #988a7e;
 }
-
-a[style="text-decoration : underline"]{
-    margin-right: 60px;
-    margin-left: 600px;
-    margin-top: 200px;
-    padding: 40px;
+.prozess {
+    margin-top: 5%;
+}
+.prozess .card-deck{
+    margin: 2%;
+}
+.prozess .card-deck .card {
+    border: none;
+    text-align: center;
+}
+.prozess .pfeil{
+    margin: 1%;
+    margin-top: 100px;
+}
+.prozess p{
+    font-size: 4vmin;
 }
 
-.footer{
-    background: #f6f4f2;
-    color: white;
-    height: 400px;
+/* footer */
+
+footer {
+    color: #988a7e;
+    min-height: 400px;
+    font-family: 'EB Garamond', serif;
+    background: white;
+    box-shadow: inset 1px 40px 55px -20px lightgray;
 }
 
-.footer .footer-content {
-    border: 1px solid red;
-    height: 400px;
+footer .container-fluid {
+
+    height: 100%;
     display: flex;
 }
 
-.footer .footer-content .footer-section{
+footer .container-fluid .row{
     flex: 1;
-    border: 1px solid black;
-    padding: 25px;
-    height: 400px;
+    padding-top: 5%;
+    padding-left: 5%;
+    height: 100%;
+    font-size: 25px;
+}
+footer .col-md-4{
+    padding-top: 4%;
 }
 
-.container-md{
+/* Anleitungen */
+
+.anleitungen .row{
+    background: #f6f4f2;
+    margin: 30px 7% 50px;
+    padding: 3%;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.anleitungen .card{
+    background: #f6f4f2;
+}
+
+.anleitungen .card-img-top{
+    width: 80%;
+    max-height: 400px;
+}
+#bildrechts1{
+    margin-left: 20%;
+}
+#bildrechts2{
+    margin-left: 20%;
+}
+#bildrechts3{
+    margin-left: 20%;
+}
+
+/* Damen neu */
+
+.damen .ueever{
+    margin-left: 5%;
+}
+
+.damen .ever{
     position: relative;
-    width: 350px;
-    margin: 0 auto;
-    display: flex;
+    margin-right: 2%;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.5vw;
+    height: auto;
+
 }
 
-.container-md .content {
+.damen .pic {
+    position: relative;
+    max-width: 350px;
+    height: 30%;
+    margin-left: 5%;
+    margin-right: 2%;
+    min-width: 100px;
+    margin-bottom: 1%;
+}
+
+.damen .pic .content {
     position: absolute;
     bottom: 0;
-    background: rgb(0, 0, 0);
     background: rgba(121, 164, 171, 0.5);
-    font-size: 30px;
     text-align: center;
-    color: white;
+    color: #f1f1f1;
     width: 100%;
-    padding: 20px;
-    width: 350px;
+    max-height: 40%;
+    padding: 3%;
+}
 
+/* Merkliste */
+
+.uebergeordnet{
+    display: flex;
+    margin-bottom: 90px;
+    height: 200px;
+    background: #f6f4f2;
+}
+
+.Maskencontainer{
+    padding-right: 20px;
+    margin-left: -15px;
+
+}
+
+.uebergeordnet .Beschreibung{
+    padding: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.uebergeordnet .Beschreibung .Geld{
+    margin-top: 40px;
+}
+
+
+.uebergeordnet .icons{
+    margin-left: 450px;
+    margin-top: 120px;
+    padding-left: 450px;
+    position: absolute;
+}
+
+.uebergeordnet .icons .imge{
+    margin-right: 40px;
+}
+.merkliste {
+    margin-top: 70px;
+}
+
+/* Anmeldung */
+
+.anmeldung .titles{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.anmeldung .parent-container{
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.anmeldung .container-fluid {
+    max-width: 500px;
+}
+#registrierung{
+    background: #f6f4f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+#einloggen{
+    background: #f6f4f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.btn-info1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 23vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background: #79A4AB;
+}
+
+.btn-info2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 23vw;
+    margin-top: 350px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background: #79A4AB;
+}
+
+/* Bestellbestaetigung */
+
+.bestellbestaetigung .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bestellbestaetigung .img-fluid{
+    max-width: 40vw;
+    height: auto;
+}
+.bestellbestaetigung .unterschrift1{
+    font-size: 2vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    margin-top: 40px;
+}
+.bestellbestaetigung .unterschrift2{
+    font-size: 1.7vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    margin-top: 60px;
+}
+.unteresbild{
+    padding-bottom: 10%;
+}
+
+.unteresbild .container-fluid {
+    position: relative;
+    max-width: 1100px;
+    max-height: 207px;
+    padding: 0;
+    margin-left: auto;
+}
+
+.unteresbild .container-fluid .content {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    bottom: 25%;
+    right: 35%;
+    background: rgba(255, 255, 255, 0.5);
+    color: #A39183;
+    height: 50%;
+    width: 35%;
+    text-align: center;
+    font-size: 2vw;
+}
+/* Ergebnisse */
+
+.ergebnisse{
+    display: flex;
+    margin-top: 2%;
+}
+
+.ergebnisse .Filter{
+    background-color: #eeeeee;
+    width: 150px;
+
+}
+
+.ergebnisse .Filter .content{
+    margin-left: 1%;
+}
+.ergebnisse .Filter h1{
+    margin-top: 2%;
+}
+
+.ergebnisse .ergebn{
+    display: flex;
+    margin-left: 10%;
+}
+
+.ergebnisse .ergebn .Kasten{
+
+    background-color: #eeeeee;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    margin: 2% 5% 2% 4%;
+
+}
+
+.ergebnisse .neben{
+    display: flex;
+    margin-left: 13%;
+}
+.ergebnisse .links{
+    margin-left: 13%;
+}
+
+.ergebnisse .neben .content{
+    margin-left:1%;
+    margin-top: 1.5%;
+}
+.ergebnisse .neben .dropdown{
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.ergebnisse .Filter h6{
+    margin-bottom: 4%;
+}
+
+.ergebnisse .side .button{
+    margin-left: 30%;
+}
+
+.ergebnisse .Material{
+    margin-top: 65%;
+}
+.ergebnisse .Material .dropdown{
+    margin-top: 60%;
+}
+
+.ergebnisse .KPic{
+    max-width: 230px;
+    max-height: 210px;
+}
+
+.ergebnisse .ptxt{
+    text-align: center;
+}
+
+/* FAQ */
+
+.faq .card-deck {
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 50px;
+}
+
+.faq .card-deck .l{
+    margin-right: 20%;
+}
+
+.faq .card-deck .card{
+    border: none;
+}
+
+.faq .card-deck .card-body .card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.faq .card-deck .card-body .card-text{
+    font-size: 25px;
+}
+
+/* checkout */
+
+.checkout{
+    margin: 40px 5% 5% 5%;
+}
+
+#bestellung, #pundv{
+    background: white;
+    border: solid lightgray 2px;
+}
+
+.checkout .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.checkout .col-40 {
+    flex: 40%;
+}
+
+.checkout .col-50 {
+    flex: 50%;
+}
+
+.checkout .col-60 {
+    flex: 60%;
+    background-color: #f6f4f2;
+}
+
+.checkout .col-40,
+.checkout .col-50,
+.checkout .col-60 {
+    padding: 0 16px;
+}
+
+.checkout .container {
+    background-color: #f6f4f2;
+    padding: 50px;
+}
+
+.checkout input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.checkout label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.checkout .btn {
+    background-color: #79A4AB;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    max-width: 700px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.checkout .btn:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+.checkout span.price {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .checkout .row {
+        flex-direction: column-reverse;
+    }
+    .checkout .col-40 {
+        margin-bottom: 20px;
+    }
+}
+
+/* warenkorb */
+
+.warenkorb{
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+}
+
+.warenkorb .schrift{
+    font-size: 20px;
+}
+
+.warenkorb .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px 4%;
+}
+
+.warenkorb .col-25 {
+    flex: 25%;
+    margin-top: 32%;
+}
+
+.warenkorb .col-50 {
+    flex: 50%;
+}
+
+.warenkorb .col-75 {
+    flex: 75%;
+    background-color: white;
+}
+
+.warenkorb .container {
+    background-color: #f6f4f2;
+}
+
+.warenkorb .btn {
+    background-color: #79A4AB;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.warenkorb .btn:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .warenkorb .row {
+        flex-direction: column;
+    }
+    .warenkorb .col-25 {
+        margin-bottom: 20px;
+    }
 }
 

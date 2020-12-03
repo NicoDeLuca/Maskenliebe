@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <title>anleitungen</title>
+    <title>Ergebnisse</title>
 </head>
+
 <body>
 <header>
     <div class="brand-bereich">
@@ -76,64 +77,148 @@
     </nav>
 </header>
 <main>
-    <div class="anleitungen">
-        <div class="überschrift">
-            <h1 style="font-weight: bold"> Anleitung zum schneidern von Masken</h1>
+
+    <div class="ergebnisse" style="font-family: 'Montserrat', sans-serif">
+
+        <div class="Filter">
+
+            <div class="content container-fluid">
+                <div>
+
+                    <h1>Filter</h1>
+                    <div class="Material">
+                        <h6>Material</h6>
+
+                        <input type="checkbox">Stoff
+                        <br>
+                        <input type="checkbox">Polyester
+                        <br>
+                        <input type="checkbox">Leinen
+                    </div>
+                </div>
+
+                <div class="Material">
+                    <h6>Stil</h6>
+
+                    <input type="checkbox">Dezent
+                    <br>
+                    <input type="checkbox">Ausgefallen
+                    <br>
+                    <input type="checkbox">Modern
+
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                            Farbe
+                        </button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Rot</a>
+                            <a class="dropdown-item">Grün</a>
+                            <a class="dropdown-item">Blau</a>
+                        </div>
+
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                            Muster
+                        </button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Gestreift</a>
+                            <a class="dropdown-item">Kariert</a>
+                            <a class="dropdown-item">Gepunktet</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="side container-fluid">
+            <div class="auscard">
+                <div class="neben card-deck">
+                    <h1>Ergebnisse</h1>
+
+                    <div class="content">
+                        <p>für "Damen / Brillenträger"</p>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                            Sortieren nach
+                        </button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Damen</a>
+                            <a class="dropdown-item">Herren</a>
+                            <a class="dropdown-item">Kinder</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
             <a class="links" href="index.html" style="text-decoration : underline"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-left-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3.86 8.753l5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg> Zurück zur Startseite</a>
+            </svg> Zurück zur Kategorienseite</a>
+            <div class="auscard">
+                <div class="ergebn card-deck">
+
+                    <div class="Kasten">
+                        <div class="KPic">
+                            <img src="Images/maske1.jpeg" alt="MaskenbildPD" style="width: 100%" height="210">
+                        </div>
+                        <div class="ptxt">
+                            <p>Schwarz weiß, kariert</p>
+                            <p class="Geld">7,00€</p>
+                        </div>
+                    </div>
+
+                    <div class="Kasten">
+                        <div class="KPic">
+                            <img src="Images/maske2.jpeg" alt="MaskenbildPD" style="width: 100%" height="210">
+                        </div>
+                        <div class="ptxt">
+                            <p>Leinen braun, schlicht</p>
+                            <p class="Geld">10,00€</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ergebn card-deck">
+
+                    <div class="Kasten">
+                        <div class="KPic">
+                            <img src="Images/maske3.jpeg" alt="MaskenbildPD" style="width: 100%" height="210">
+                        </div>
+                        <div class="ptxt">
+                            <p>Schwarz weiß, kariert</p>
+                            <p class="Geld">7,00€</p>
+                        </div>
+                    </div>
+
+                    <div class="Kasten">
+                        <div class="KPic">
+                            <img src="Images/MaskenbildPD.jpg" alt="MaskenbildPD" style="width: 100%" height="210">
+                        </div>
+                        <div class="ptxt">
+                        <p>Leinen weiß, schlicht</p>
+                        <p class="Geld">10,00€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <button type="button" class="btn ">Mehr Laden</button>
+                </div>
+
+            </div>
+
         </div>
-        <div class="row row-cols-2 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungenbild1.jpg" class="card-img-top" alt="Nähmaschine"/>
-                    <div class="card-body">
-                        <a id="textlinks1" style="text-decoration: underline" class="links" href="#">Einfaches Schnittmuster als PDF <br> Download</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/produktbild1.jpg" class="card-img-top" alt="Nähobjekte" id="bildrechts1"/>
-                    <div class="card-body">
-                        <a id="textrechts1" style="text-decoration: underline" class="links" href="#">Community-Maske, schnell und <br> einfach!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungenbild3.jpg" class="card-img-top" alt="Nähobjekte2"/>
-                    <div class="card-body">
-                        <a style="text-decoration: underline" class="links" href="#">Masken selber nähen- was man <br> vorher wissen muss</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungsbild4.jpg" class="card-img-top" alt="Nähmaschine2" id="bildrechts2"/>
-                    <div class="card-body">
-                        <a id="textrechts2" style="text-decoration: underline" class="links" href="#">Maske nähen mit Gummikordel oder <br> Elastikband?</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungenbild5.jpg" class="card-img-top" alt="Person näht"/>
-                    <div class="card-body">
-                        <a style="text-decoration: underline" class="links" href="#">Kindermaske selber nähen – mit <br> lustigen Applikationen</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungenbild6.jpg" class="card-img-top" alt="Nähmaschine3" id="bildrechts3"/>
-                    <div class="card-body">
-                        <a id="textrechts3" style="text-decoration: underline" class="links" href="#">Dehnbare Community-Maske mit <br>elastischem Garn nähen</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
+
 </main>
 <footer>
     <div class="container-fluid">

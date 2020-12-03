@@ -1,99 +1,232 @@
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h2 class="titles">Registrieren</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>Maskenliebe</title>
+</head>
+<body>
+<header>
+    <div class="brand-bereich">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-8" id="logo">
+                    <a href="index.html"> <img class="img-fluid" src="Images/Maskenliebelogo.png" height="151" width="787" alt="Maskenliebe Logo"/> </a>
+                </div>
+                <div class="col-2">
+                    <p id="anmeldung">
+                        <a class="links" href="kategorien.html" style="text-decoration : underline"></a>
+                    </p>
+                </div>
+                <div class="col-2">
+                    <div class="container-fluid" id="icons">
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <a href="merkliste.html"><img class="img-fluid" src="Images/herzicon.png" height="50" width="50" alt="Merkliste"/></a>
+                            </div>
+                            <div class="col-xl-4">
+                                <a href="warenkorb.html"><img class="img-fluid" src="Images/warenkorb.png" height="50" width="50" alt="Warenkorb"/></a>
+                            </div>
+                            <div class="col-xl-4">
+                                <a href="#"><img class="img-fluid" src="Images/Profilicon.png" height="50" width="50" alt="Profil"/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-2">
-            <form id="regestrierenInputfelder">
-                <span class="beschriftungen" id="nutzername">Nutzername</span>
-            </form>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-6"><input type="text" id="nutzernameInput" required>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-2">
-            <span class="beschriftungen" id="email">E-Mail</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-6">
-            <input type="email" id="emailInput">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-2">
-            <span class="beschriftungen" id="Passwort">Passwort</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-6"><input id="passwortInput" type="password">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-2">
-            <span class="beschriftungen" id="add-user-first-name">Passwort wiederholen</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-6">
-            <input type="password" id="passwortWiederholen" required>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-7">
-            <input type="checkbox" id="agbCheckbox" required>
-            <label for="agbCheckbox" id="checkboxlabel"> Hiermit bestätige ich, dass ich<br>die AGB gelesen und<br>akzeptiert
-                habe.</label><br>
-            <p id="erfolgreichRegistiert">Sie haben sich erfolgreich registriert!</p>
-            <p id="passwortFalsch">Die Passwörter sind falsch!</p>
-        </div>
-    </div>
-    <div class="row">
-        <form class="col-xs-12">
-            <button id="registrieren" type="submit" class="btn-info1">Registrieren</button>
-        </form>
-    </div>
-</div>
 
+    <nav class="navbar navbar-expand-md navbar-light">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <div class="collapse navbar-collapse container-fluid">
+                <div class="topnav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link " href="damen.html">Damen</a> </li>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h2 class="titles">Einloggen</h2>
+                        <li class="nav-item"> <a class="nav-link" href="#">Herren</a> </li>
+
+                        <li class="nav-item"> <a class="nav-link" href="#">Kinder</a> </li>
+
+                        <li class="nav-item"> <a class="nav-link" href="#">Anzeige erstellen</a> </li>
+
+                        <li class="nav-item"> <a class="nav-link" href="anleitung.html">Anleitungen</a> </li>
+                    </ul>
+                </div>
+                <form class="form-inline my-2 my-lg-0 bg-light">
+                    <label>
+                        <input class="form-control mr-sm-0 bg-light" type="search" placeholder="">
+                    </label>
+                    <button class="btn  my-2 my-sm-0" type="submit">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="anmeldung">
+        <div class="überschrift">
+                <h1 style="font-weight: bold"> Sign in / Sign up</h1>
+                <a class="links" href="index.html" style="text-decoration : underline"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-left-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.86 8.753l5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                </svg> Zurück zur Startseite</a>
+        </div>
+        <div class="parent-container d-flex">
+            <div class="container-fluid" id="registrierung">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="titles">Registrieren</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-2">
+                        <form id="regestrierenInputfelder">
+                            <span class="beschriftungen" id="nutzername">Nutzername</span>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6"><input type="text" id="nutzernameInput"  required size="45%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-2">
+                        <span class="beschriftungen" id="email">E-Mail</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6">
+                        <input type="email" id="emailInput" size="45%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-2">
+                        <span class="beschriftungen" id="Passwort">Passwort</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6"><input id="passwortInput" type="password" size="45%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-2">
+                        <span class="beschriftungen" id="add-user-first-name">Passwort wiederholen</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6">
+                        <input type="password" id="passwortWiederholen" required size="45%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <input type="checkbox" id="agbCheckbox" required>
+                        <label for="agbCheckbox" id="checkboxlabel"> Hiermit bestätige ich, dass ich<br>die AGB gelesen und<br>akzeptiert
+                            habe.</label><br>
+                        <p id="erfolgreichRegistiert">Sie haben sich erfolgreich registriert!</p>
+                        <p id="passwortFalsch">Die Passwörter sind falsch!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="col-xs-12">
+                        <button id="registrieren" type="submit" class="btn-info1 btn-lg">Registrieren</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="einloggen">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="titles">Einloggen</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-2">
+                        <form id="LoginInputfelder"><span class="beschriftungen" id="nutzernameInputLogin">E-Mail Adresse</span>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6">
+                        <input type="email" id="emailLogin" required size="45%">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-2">
+                        <span class="beschriftungen" id="passwortInputLogin">Passwort</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6">
+                        <input type="text" aria-label="passwortLogin" size="45%">
+                    </div>
+                </div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row">
+                    <form class="col-xs-12">
+                        <button type="submit" class="btn-info2 btn-lg">Einloggen</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-2">
-            <form id="LoginInputfelder"><span class="beschriftungen" id="nutzernameInputLogin">E-Mail Adresse</span>
-            </form>
+</main>
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <h3 class="überuns"> Über uns</h3>
+                <br>
+                <a class="links" href="#">Impressum</a>
+                <br>
+                <br>
+                <a class="links" href="#">Datenschutz</a>
+                <br>
+                <br>
+                <a class="links" href="faq.html">FAQ</a>
+            </div>
+            <div class="col-md-3">
+                <h3 class="überuns"> Verkaufen</h3>
+                <br>
+                <a class="links" href="#">Verkäuferschutz</a>
+                <br>
+                <br>
+                <a class="links" href="#">Verkauftipps</a>
+                <br>
+                <br>
+                <a class="links" href="#">Foren</a>
+            </div>
+            <div class="col-md-2">
+                <h3 class="überuns"> Kaufen</h3>
+                <br>
+                <a class="links" href="#">Gutschein</a>
+                <br>
+                <br>
+                <a class="links" href="#">Käuferschutz</a>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-4">
+                <a target="_blank" title="https://www.pinterest.de/" href="https://www.pinterest.de/"><img class="img-fluid" src="Images/p.png" alt="Social Media Icons"></a>
+                <a target="_blank" title="https://www.instagram.com/" href="https://www.instagram.com/"><img class="img-fluid" src="Images/instagram.png" alt="Social Media Icons"></a>
+                <a target="_blank" title="https://twitter.com/?lang=de" href="https://twitter.com/?lang=de"><img class="img-fluid" src="Images/twitter.png" alt="Social Media Icons"></a>
+                <a target="_blank" title="https://www.youtube.com/" href="https://www.youtube.com/"><img class="img-fluid" src="Images/youtube.png" alt="Social Media Icons"></a>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-6">
-            <input type="email" id="emailLogin" required>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-2">
-            <span class="beschriftungen" id="passwortInputLogin">Passwort</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-6">
-            <input type="text" aria-label="passwortLogin">
-        </div>
-    </div>
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="row">
-        <div class="col-xs-12">
-            <button type="submit" class="btn-info2">Einloggen</button>
-            </form></div>
-    </div>
-</div>
+</footer>
+</body>

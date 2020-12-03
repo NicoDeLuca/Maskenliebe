@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <title>anleitungen</title>
+    <title>Maskenliebe</title>
 </head>
 <body>
 <header>
@@ -76,61 +76,85 @@
     </nav>
 </header>
 <main>
-    <div class="anleitungen">
-        <div class="überschrift">
-            <h1 style="font-weight: bold"> Anleitung zum schneidern von Masken</h1>
-            <a class="links" href="index.html" style="text-decoration : underline"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-left-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3.86 8.753l5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg> Zurück zur Startseite</a>
-        </div>
-        <div class="row row-cols-2 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungenbild1.jpg" class="card-img-top" alt="Nähmaschine"/>
-                    <div class="card-body">
-                        <a id="textlinks1" style="text-decoration: underline" class="links" href="#">Einfaches Schnittmuster als PDF <br> Download</a>
-                    </div>
+    <div class="überschrift">
+        <h1 style="font-weight: bold">Check-Out</h1>
+        <a class="links" href="index.html" style="text-decoration : underline"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-left-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.86 8.753l5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+        </svg> Zurück zum Warenkorb</a>
+    </div>
+    <div class="checkout">
+        <div class="row">
+            <div class="col-60">
+                <div class="container" >
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-50">
+                                <h3>Persönliche Informationen</h3>
+                                <br>
+                                <br>
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="vorname">Vorname</label>
+                                        <input type="text" id="vorname" name="vorname">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="nachname">Nachname</label>
+                                        <input type="text" id="nachname" name="nachname">
+                                    </div>
+                                </div>
+                                <label for="straße">Straße</label>
+                                <input type="text" id="straße" name="straße">
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="ort">Ort</label>
+                                        <input type="text" id="ort" name="ort">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="plz">Postleitzahl</label>
+                                        <input type="text" id="plz" name="plz">
+                                    </div>
+                                </div>
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email">
+                                <label for="Telefonnummer">Telefonnummer</label>
+                                <input type="text" id="Telefonnummer" name="Telefonnummer" >
+                            </div>
+                        </div>
+                        <h4>Zahlungsmethoden</h4>
+                        <label>
+                            <input type="checkbox" name="Paypal">Paypal
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Kreditkarte">Kreditkarte
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Überweisung">Überweisung
+                        </label>
+                    </form>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/produktbild1.jpg" class="card-img-top" alt="Nähobjekte" id="bildrechts1"/>
-                    <div class="card-body">
-                        <a id="textrechts1" style="text-decoration: underline" class="links" href="#">Community-Maske, schnell und <br> einfach!</a>
-                    </div>
+
+            <div class="col-40">
+                <div class="container" id="bestellung">
+                    <h1 align="center">Bestellung</h1>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungenbild3.jpg" class="card-img-top" alt="Nähobjekte2"/>
-                    <div class="card-body">
-                        <a style="text-decoration: underline" class="links" href="#">Masken selber nähen- was man <br> vorher wissen muss</a>
-                    </div>
+                <div class="container">
+                    <h2>Produkt<span style="float: right">Preis</span></h2>
+                    <p><img src="Images/masken/maske3.jpeg" alt="Maske3" height="100" width="100"><span class="price">7,00€</span></p>
+                    <p>Karierte Maske</p>
+                    <p><img src="Images/masken/maske7.jpeg" alt="Maske7" height="100" width="100"> <span class="price">10,00€</span></p>
+                    <p>Herzmaske</p>
+                    <p><img src="Images/MaskenbildPD.jpg" alt="MaskenbildPD" height="100" width="100"><span class="price">10,00€</span></p>
+                    <p>Maske mit Ankern</p>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungsbild4.jpg" class="card-img-top" alt="Nähmaschine2" id="bildrechts2"/>
-                    <div class="card-body">
-                        <a id="textrechts2" style="text-decoration: underline" class="links" href="#">Maske nähen mit Gummikordel oder <br> Elastikband?</a>
-                    </div>
+                <div class="container" id="pundv">
+                    <p>Preis Produkte:<span class="price" >27,00€</span></p>
+                    <p>Preis Versand:<span class="price" >4,00€</span></p>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungenbild5.jpg" class="card-img-top" alt="Person näht"/>
-                    <div class="card-body">
-                        <a style="text-decoration: underline" class="links" href="#">Kindermaske selber nähen – mit <br> lustigen Applikationen</a>
-                    </div>
+                <div class="container">
+                    <h1>Gesamtsumme:<span class="price" style="color:orange">31,00€</span></h1>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card" style="border: none">
-                    <img src="Images/anleitungenbild6.jpg" class="card-img-top" alt="Nähmaschine3" id="bildrechts3"/>
-                    <div class="card-body">
-                        <a id="textrechts3" style="text-decoration: underline" class="links" href="#">Dehnbare Community-Maske mit <br>elastischem Garn nähen</a>
-                    </div>
-                </div>
+                <a href="bestellbestaetigung.html" class="btn" role="button" aria-pressed="true" style="padding-top: 30px">Kostenpflichtig bestellen</a>
             </div>
         </div>
     </div>
